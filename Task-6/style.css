@@ -1,0 +1,89 @@
+body{
+  font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;
+  background:linear-gradient(to right,#6a11cb,#2575fc);
+  color:#fff;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  min-height:100vh;
+  margin:0;
+}
+.form-container{
+  background:#fff;
+  padding:40px;
+  border-radius:12px;
+  box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+  width:100%;
+  max-width:500px;
+  text-align:center;
+  position:relative;
+  z-index:1;
+  transform:translateY(-20px);
+  transition:all 0.3s ease;
+}
+.form-container:hover{
+  transform:translateY(0);
+  box-shadow: 0 12px 20px rgba(0,0,0,0.3);
+}
+h1{
+  font-size:2rem;
+  color:#333;
+  margin-bottom:20px;
+  font-weight:600;
+  letter-spacing:1px;
+}  
+.form-group{
+  margin-bottom:20px;
+  text-align:left;
+}
+label{
+  font-size:1rem;
+  font-weight:600;
+  color:#333;
+  margin-bottom:8px;
+  display:block;
+}
+input{
+  width:100%;
+  padding:15px;
+  font-size:16px;
+  border-radius:10px;
+  border: 1px solid #ddd;
+  background-color:#f9f9f9;
+  color:#333;
+  margin-top:10px;
+  transition:background-color 0.3s ease,box-shadow 0.3s ease;
+}
+input:focus{
+  background-color:#f1f1f1;
+  outline:none;
+  box-shadow: 0 0 8px rgba(38,194,129,0.5);  
+}
+button{
+  padding:15px;
+  width:100%;
+  font-size:18px;
+  background-color:#38d39f; 
+  color:white;
+  border:none;
+  border-radius:10px;
+  cursor:pointer;
+  transition:background-color 0.3s ease, transform 0.3s ease;
+}
+button:hover{
+  background-color:#2cba7f;
+  transform:scale(1.05);  
+}  
+#errorMessages{
+  margin-top:15px;
+  color:#e74c3c;
+  font-size:14px;
+  font-weight:500;
+  background-color:rgba(231,76,60,0.1);
+  padding:10px;
+  border-radius:8px;
+} 
+input,button{
+  transition: all 0.3s ease;
+}
+  
