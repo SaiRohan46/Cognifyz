@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header {
+  background-color: #3498db;
+  padding: 20px 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  font-size: 18px;
+}
+
+.nav-links a {
+  color: white;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #2ecc71;
+}
+
+.main-section {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.hero {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.hero h2 {
+  font-size: 36px;
+  color: #3498db;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.primary-btn {
+  background-color: #3498db;
+  color: white;
+  padding: 15px 30px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.primary-btn:hover {
+  background-color: #2ecc71;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+#messageBox {
+  margin-top: 20px;
+  display: none;
+  font-size: 18px;
+  color: #3498db;
+}/*# sourceMappingURL=styles.css.map */
